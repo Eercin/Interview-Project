@@ -1,0 +1,145 @@
+body {
+    background: #eeeeee;
+}
+
+.my-app-main {
+    display: flex;
+    justify-content: center;
+}
+
+.my-app-header-user-name {
+    text-align: center;
+    font-size: 30px;
+}
+
+.my-app-header {
+    width: 1000px;
+    height: fit-content;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+
+.my-app-content-left-top, .my-app-content-right-top {
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    min-width: 350px;
+    max-width: 350px;
+}
+
+.my-app-content-left-bottom, .my-app-content-right-bottom {
+    padding: 20px 120px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    min-width: 350px;
+    max-width: 350px;
+    text-align: center;
+}
+
+.line::after {
+    content: '';
+    border-bottom: 2px solid #000;
+    width: 30px;
+    display: block;
+    margin: 0 auto;
+}
+
+.my-app-content-left-top span {
+    max-height: 50px;
+}
+
+.my-app-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.btn-decrease, .btn-increase {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.d-i-btn {
+    border: none;
+    color: #A09DA1;
+    background-color: #ffffff;;
+    font-size: 35px;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 30px;
+    align-items: center;
+    display: flex;
+}
+
+.my-app-content-mid-value {
+    color: #A09DA1;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.my-app-content-mid-top {
+    margin-bottom: 10px;
+}
+
+.line-two {
+    border-bottom: 2px solid #000000;
+}
+
+.my-app-content-mid-bottom {
+    margin-top: 10px;
+}
+
+.my-app-content-mid-top, .my-app-content-mid-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-app-content-right-top {
+    gap: 23px;
+}
+
+.app-rest-container {
+    display: flex;
+    justify-content: center;
+}
+
+.my-app-rest {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 338px;
+}
+
+.mapped-items:first-child {
+    border: 1px solid blue;
+}
+
+.black {
+  background-color: #000;
+}
+.box {
+    border: 1px solid purple;
+    margin: 3px;
+    padding: 13px;
+    border-radius: 5px;
+}   
+
+.btn-logout{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.btn-logout button {
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: teal;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
